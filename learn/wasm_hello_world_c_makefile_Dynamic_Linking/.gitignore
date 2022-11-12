@@ -80,3 +80,4 @@ dkms.conf
 *.wasm
 *.js
 node_modules/
+*dump*

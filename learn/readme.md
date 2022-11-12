@@ -14,7 +14,6 @@ Back to [home](../README.md)
 
  - [Instructions](https://emscripten.org/docs/getting_started/downloads.html)
 
-
 On Linux
 
 ```bash
@@ -37,4 +36,11 @@ git pull
 source ./emsdk_env.sh
 ```
 
+## Wasm wasm-objdump
+
+To install:
+
+```bash
+sudo apt-get install wabt
+```
 
