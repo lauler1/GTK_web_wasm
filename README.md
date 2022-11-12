@@ -7,4 +7,8 @@ There are two main possibilities to study, see picture
 
 I think the Browser approach seems to be an easier starting point.
 
+## Links
+
 Please, see [Wiki page](https://github.com/lauler1/GTK_web_wasm/wiki)
+
+There is a `learn` sub folder with many mini projects see doc at [learn dock](learn/readme.md).
