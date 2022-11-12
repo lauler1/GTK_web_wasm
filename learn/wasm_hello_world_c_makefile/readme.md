@@ -17,29 +17,50 @@ source ../../../emsdk/emsdk_env.sh
 
 Create a file `hello.c`:
 
-```C
-#include <stdio.h>
+```makefile
 
-int main() {
-    printf("Hello World\n");
-    return 0;
-}
+IDIR =./include
+CC=emcc
+CFLAGS=-I$(IDIR)
+
+ODIR=obj
+LDIR =./lib
+
+
+singlehello.js: hellomake.o hellofunc.o
+	$(CC) $^ -o $@
+
+hellomake.o: src/hellomake.c
+	$(CC) -c $^ -o $@ $(CFLAGS)
+
+hellofunc.o: src/hellofunc.c
+	$(CC) -c $< -o $@ $(CFLAGS)
+
+clean:
+	rm -f $(ODIR)/*.o *~ core $(INCDIR)/*~
+
 ```
 
 To compile:
 
 ```bash
-emcc hello.c -o hello.js
+make
+
+# or
+emmake make
 ```
 To run:
 
 ```bash
-node hello.js
+node singlehello.js
 ```
-or compile to run in a HTML
+
+To run direct the WASM:
 
 ```bash
-emcc hello.c -o hello.html
-```
+# If wasm-run is not yet installed
+npm install wasm-run -g
 
-This option will need a server to run or run the Browser disabling the security rules.
+# Execute the WASM
+
+```
