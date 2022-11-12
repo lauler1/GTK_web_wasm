@@ -2,7 +2,7 @@
 
 Back to [home](../readme.md)
 
-This is the first example of wasm using C language
+This is an example of wasm using C language and makefile
 
 
 It needs [Emscripten SDK (emsdk)](../readme.md#Installing-the-C-Emscripten-SDK)
@@ -53,14 +53,4 @@ To run:
 
 ```bash
 node singlehello.js
-```
-
-To run direct the WASM:
-
-```bash
-# If wasm-run is not yet installed
-npm install wasm-run -g
-
-# Execute the WASM
-
 ```

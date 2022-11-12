@@ -2,7 +2,7 @@
 
 Back to [home](../readme.md)
 
-This is the first example of wasm using C language
+This is an example of wasm using C language with more than 1 function in the file
 
 
 It needs [Emscripten SDK (emsdk)](../readme.md#Installing-the-C-Emscripten-SDK)
