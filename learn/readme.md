@@ -6,8 +6,7 @@ Back to [home](../README.md)
  - [wasm hello world c shell minimal](wasm_hello_world_c_shell_minimal/readme.md)
  - [wasm hello world c multiple sources](wasm_hello_world_c_multiple_sources/readme.md)
  - [wasm hello world c makefile](wasm_hello_world_c_makefile/readme.md)
-
-
+ - [wasm hello world c makefile Dynamic Linking](wasm_hello_world_c_makefile_Dynamic_Linking/readme.md)
 
 
 
