@@ -1,4 +1,4 @@
-# GTK_web_wasm
+# GUI_web_wasm
 
 This project is intended to study the viability of creating a minimal port of GTK to run inside WASM environment (Browser, or such as maybe Wasmtime or Wasmer).
 
