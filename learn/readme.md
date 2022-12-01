@@ -44,3 +44,13 @@ To install:
 sudo apt-get install wabt
 ```
 
+## Running Code Space in Corporate with security restrictions
+
+Chromium command line (Windows)
+
+```bash
+ungoogled-chromium-portable.exe --disable-web-security --test-type
+```
+
+I also needed to add the `main.vscode-cdn.net` to the `settings/content/javascript/Allowed to use Javascript`.
+
