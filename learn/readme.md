@@ -52,5 +52,7 @@ Chromium command line (Windows)
 ungoogled-chromium-portable.exe --disable-web-security --test-type
 ```
 
-I also needed to add the `main.vscode-cdn.net` to the `settings/content/javascript/Allowed to use Javascript`.
+I also needed to add the `main.vscode-cdn.net`, `[*.]vscode-unpkg.net` and `vscodeweb.azureedge.net` to both `settings/Privacy and security/content/javascript/Allowed` to use Javascript` and also to `settings/Privacy and security/content/Additional content settings/Insecure content`.
+
+
 
