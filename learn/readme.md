@@ -54,5 +54,6 @@ ungoogled-chromium-portable.exe --disable-web-security --test-type
 
 I also needed to add the `main.vscode-cdn.net`, `[*.]vscode-unpkg.net` and `vscodeweb.azureedge.net` to both `settings/Privacy and security/content/javascript/Allowed` to use `Javascript` and also to `settings/Privacy and security/content/Additional content settings/Insecure content`.
 
+See [chrome Control use of insecure content exceptions configuration](https://support.google.com/chrome/a/answer/2657289?hl=en#zippy=%2Cpolicies-set-for-users%2Callow-insecure-content-on-these-sites%2Ccontrol-use-of-insecure-content-exceptions).
 
 
